@@ -280,5 +280,15 @@ case "$resetAutoStash" in
   *) git config rebase.autoStash "$resetAutoStash" ;;
 esac
 
+printf "\n${BLUE}%s${RESET}\n" "Updating custom plugins"
+cd custom/plugins
+
+for plugin in */; do
+  if [ -d "$plugin/.git" ]; then
+     printf "${YELLOW}%s${RESET}\n" "${plugin%/}"
+     git -C "$plugin" pull
+  fi
+done
+
 # Exit with `1` if the update failed
 exit $ret
