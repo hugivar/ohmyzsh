@@ -1,3 +1,15 @@
 [submodule "custom/plugins/git-extra-commands"]
 	path = custom/plugins/git-extra-commands
 	url = https://github.com/unixorn/git-extra-commands
+[submodule "custom/plugins/you-should-use"]
+	path = custom/plugins/you-should-use
+	url = https://github.com/MichaelAquilina/zsh-you-should-use
+[submodule "custom/plugins/zsh-syntax-highlighting"]
+	path = custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "custom/plugins/zsh-autosuggestions"]
+	path = custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "custom/plugins/zsh-autocomplete"]
+	path = custom/plugins/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete
