@@ -1,0 +1,3 @@
+[submodule "custom/plugins/git-extra-commands"]
+	path = custom/plugins/git-extra-commands
+	url = https://github.com/unixorn/git-extra-commands
